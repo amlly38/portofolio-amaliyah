@@ -80,15 +80,15 @@ const Hero = () => {
                     </motion.button>
 
                     <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
+                        <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/amlly38">
                             <AiOutlineGithub/>
                         </motion.a>
 
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
+                        <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/amaliyah03/">
                             <AiOutlineLinkedin/>
                         </motion.a>
 
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
+                        <motion.a whileHover={{ scale: 1.2 }} href="https://www.instagram.com/amlly38_">
                             <AiOutlineInstagram/>
                         </motion.a>
                     </div>
@@ -114,7 +114,7 @@ const Hero = () => {
             className="flex flex-col items-center py-12 px-6 w-full"
         >
             {/* Judul */}
-            <p className="text-gray-200 text-2xl md:text-4xl font-bold mb-6 text-center">
+            <p className="text-gray-200 text-2xl pt-14 md:text-4xl font-bold mb-6 text-center">
                 My Tech Stack
             </p>
             

@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className="px-6 max-w-[1000px] mx-auto md:my-12" id="contact">
         <Reveal>
-        <div className="grid md:grid-cols-2 place-items-center">
+        <div className="grid md:grid-cols-2 place-items-center mb-10">
             <div>
                 <div className="text-gray-300 my-3">
                     <h3 className="text-4xl font-semibold mb-5">About <span>Me</span></h3>
