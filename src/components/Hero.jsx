@@ -98,7 +98,7 @@ const Hero = () => {
 
             <motion.img 
                 src={profilepic}
-                className="w-[300px] md:w-[450px]"
+                className="w-[350px] md:w-[450px]"
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
@@ -111,10 +111,10 @@ const Hero = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 2 }}
-            className="flex flex-col items-center py-12 px-6 w-full"
+            className="flex flex-col items-center py-16 px-6 w-full"
         >
             {/* Judul */}
-            <p className="text-gray-200 text-2xl pt-14 md:text-4xl font-bold mb-6 text-center">
+            <p className="text-gray-200 text-2xl md:text-4xl font-bold mb-6 text-center">
                 My Tech Stack
             </p>
             
