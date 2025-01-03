@@ -51,6 +51,11 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
+                        <Link to="experience" smooth={true} offset={-80} duration={500}>
+                            Experience
+                        </Link>
+                    </li>
+                    <li>
                         <Link to="contact" smooth={true} offset={-80} duration={500}>
                             Contact
                         </Link>
@@ -76,6 +81,11 @@ const Navbar = () => {
                         <li>
                             <Link to="portfolio" onClick={closeNav} smooth={true} offset={-80} duration={500}>
                                 Projects
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="experience" onClick={closeNav} smooth={true} offset={-80} duration={500}>
+                                Experience
                             </Link>
                         </li>
                         <li>

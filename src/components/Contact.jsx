@@ -9,14 +9,16 @@ const Contact = () => {
         <Reveal>
         <div className="grid md:grid-cols-2 place-items-center mb-10">
             <div>
-                <div className="text-gray-300 my-3">
-                    <h3 className="text-4xl font-semibold mb-5">About <span>Me</span></h3>
-                    <p className="text-justify leading-7 w-11/12 mx-auto">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                        eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                        ratione quibusdam doloribus pariatur consequuntur sint.
-                        Reprehenderit cupiditate possimus facere quasi voluptatem?
+                <div className="text-gray-300">
+                <h3 className="text-2xl font-semibold mb-3">About <span className="text-indigo-600">Me</span></h3>
+                  <div className="text-justify w-12/12">
+                    <p className="text-base"> 
+                      Hi, my name is <span className="font-bold text-indigo-600">Amaliyah</span>, a passionate <span className="font-semibold text-green-500">Frontend Developer</span> focused on building clean and user-friendly web interfaces.
                     </p>
+                    <p className="text-base mt-2">
+                      Currently pursuing a degree in <span className="font-semibold text-purple-500">Information Systems</span>, I have experience with <span className="font-semibold text-orange-500">React</span>, <span className="font-semibold text-orange-500">Tailwind CSS</span>, and the <span className="font-semibold text-orange-500">MERN stack</span> from projects like <span className="font-bold text-red-500">AnakKost</span>.
+                    </p>
+                  </div>
                 </div>
 
                 <div className="flex mt-10 items-center gap-7">
