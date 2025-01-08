@@ -1,59 +1,47 @@
 import React from 'react';
 import project1 from "../assets/project1.png"
 import project2 from "../assets/project2.png"
+import project3 from "../assets/project3.png"
 import project4 from "../assets/project4.png"
-import project5 from "../assets/project5.png"
-import project6 from "../assets/project6.png"
-import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
+import { AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
 const projects = [
     {
       img: project1,
-      title: "Project #1",
-      description: "UI for frontend development using React.",
+      title: "AnakKost",
+      description: "A MERN stack-based website to help users easily find boarding houses with real-time updates and user-friendly design. Features include a responsive layout, search filters, and seamless navigation.",
       links: {
-        site: "#",
-        github: "#",
+        site: "https://anakkost.vocasia-fsjs-c.fun/",
+        github: "https://github.com/Fizm00/Project-Vocasia/",
       },
     },
     {
       img: project2,
-      title: "Project #2",
-      description: "A fullstack application built with Node.js and MongoDB.",
+      title: "Voca Task Management",
+      description: "A task management web application built with Node.js, Express.js, and MongoDB. It features secure JWT authentication, CRUD functionality, and a responsive design for efficient task management.",
       links: {
-        site: "#",
-        github: "#",
+        github: "https://github.com/amlly38/tugas-week10-fullstack-vocaTaskManager",
+      },
+    },
+    {
+      img: project3,
+      title: "VocFilm",
+      description: "A movie review platform that allows users to search and explore movies. Built with HTML, CSS, and JavaScript, featuring real-time search functionality, a clean UI, and mobile optimization.",
+      links: {
+        github: "https://github.com/amlly38/Voca-Film",
       },
     },
     {
       img: project4,
-      title: "Project #3",
-      description: "An e-commerce platform with various features.",
+      title: "Ruang Jurnal",
+      description: "A PHP-based web application for managing journal entries with full CRUD functionality. Features include easy journal creation, editing, deletion, and user authentication.",
       links: {
-        site: "#",
-        github: "#",
+        github: "https://github.com/amlly38/ruang-jurnal",
       },
     },
-    {
-      img: project5,
-      title: "Project #4",
-      description: "A mobile-friendly application using React Native.",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
-    {
-      img: project6,
-      title: "Project #5",
-      description: "A data visualization project using D3.js and other libraries.",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
-  ]
+  ];
+
 
 const Portfolio = () => {
   return (

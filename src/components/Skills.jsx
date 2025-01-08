@@ -8,9 +8,10 @@ import {
   DiNodejsSmall,
   DiMongodb,
   DiGithubBadge,
+  DiMysql,
 } from "react-icons/di"
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiChakraui, SiExpress, SiAxios, SiPostman } from "react-icons/si";
+import { SiChakraui, SiExpress, SiAxios, SiPostman, SiPhp } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import Reveal from "./Reveal"
 
@@ -35,6 +36,8 @@ const skills = [
         { name: 'Express', icon: <SiExpress className='text-gray-500' /> },
         { name: 'MongoDB', icon: <DiMongodb className='text-green-600' /> },
         { name: 'Postman', icon: <SiPostman className='text-red-500' /> },
+        { name: 'PHP', icon: <SiPhp className='text-purple-600' /> },
+        { name: 'MySQL', icon: <DiMysql className='text-blue-700' /> },
         { name: 'Git', icon: <FaGitAlt className='text-red-500' /> },
         { name: 'GitHub', icon: <DiGithubBadge className='text-gray-100' /> },
       ],

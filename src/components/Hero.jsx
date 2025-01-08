@@ -33,9 +33,9 @@ const Hero = () => {
                     sequence={[
                         "Front-End Developer",
                         1000,
-                        "Website Developer",
+                        "Website Design",
                         1000,
-                        "UI/UX Design",
+                        "Fullstack Developer",
                         1000
                     ]}
                     speed={50}
@@ -72,12 +72,15 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1.5 }}
                 className="flex flex-row items-center gap-6 my-4 md:mb-0"
                 >
-                    <motion.button whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
-                        className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
-                                     border-purple-400 rounded-xl"     
+                    <motion.a
+                    href="https://drive.google.com/file/d/1_OiItGLujgazfWksWV1GD_1Ba5BsrVEc/view?usp=drive_link"
+                    download="CV_Amaliyah" // Nama file saat diunduh
+                    whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
+                    className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
+                                border-purple-400 rounded-xl"
                     >
-                        Download CV
-                    </motion.button>
+                    Download CV
+                    </motion.a>
 
                     <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
                         <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/amlly38">
