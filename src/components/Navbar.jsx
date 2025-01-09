@@ -35,7 +35,7 @@ const Navbar = () => {
     return (
         <div className="fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-md z-50 h-20">
             <div className="max-w-[1300px] mx-auto flex justify-between text-gray-200 text-xl items-center px-12 h-20">
-                <a href="amaliyah"><IoCodeSlash className='inline mr-2 w-6 h-6' />
+                <a href="#"><IoCodeSlash className='inline mr-2 w-6 h-6' />
                 Amaliyah
                 </a>
 
