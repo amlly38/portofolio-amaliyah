@@ -73,8 +73,8 @@ const Hero = () => {
                 className="flex flex-row items-center gap-6 my-4 md:mb-0"
                 >
                     <motion.a
-                    href="https://drive.google.com/file/d/1_OiItGLujgazfWksWV1GD_1Ba5BsrVEc/view?usp=drive_link"
-                    download="CV_Amaliyah" // Nama file saat diunduh
+                    href="https://drive.google.com/uc?export=download&id=1m8IfzfztdMSq6Y4L3hVCpztH2LX3_npF"
+                    download="CV_Amaliyah"
                     whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
                     className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                                 border-purple-400 rounded-xl"
